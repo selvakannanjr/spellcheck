@@ -1,6 +1,5 @@
 from minedit import minDistance,load_words
 from multiprocessing import Pool,cpu_count,freeze_support
-from functools import partial
 from itertools import repeat
 import msvcrt
 import os
@@ -38,7 +37,7 @@ if __name__=="__main__":
             string = string+char
         os.system('cls')
         print("Word suggestions")
-        if len(string)>1:
+        if len(string)>2:
             spellcheck(string)
 
 
