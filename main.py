@@ -19,6 +19,9 @@ if __name__=="__main__":
     string = ''
     print("Begun")
     while True:
+        if string=='xyz':
+            break
+        print(string+'\n')
         c = msvcrt.getch()
         char = c.decode("utf-8")
         if char=='\n':
