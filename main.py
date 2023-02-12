@@ -17,7 +17,7 @@ def spellcheck(s):
 if __name__=="__main__":
     freeze_support()
     string = ''
-    print("Begun")
+    print("Type something...")
     while True:
         if string=='xyz':
             break
